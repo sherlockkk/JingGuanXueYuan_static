@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=gbk">
+<title></title>
+<link href="./jgen_files/bk_en.css" rel="stylesheet" type="text/css">
+<link rel=stylesheet type=text/css href="css/css.css">
+<script type=text/javascript src="js/jquery.js"></script>
+<script type=text/javascript src="js/js.js"></script>
+<script src="./jgen_files/jquery_003.js"></script>
+<script src="./jgen_files/jquery_002.js"></script>
+<script src="./jgen_files/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$("#KinSlideshow").KinSlideshow({
+		isHasTitleBar:false,
+		btn:{btn_fontHoverColor:"#ffffff"} 
+	});
+	var imgH = $("#kinMaxShow").find("img").last().height();
+     
+	$("#kinMaxShow").kinMaxShow({
+		height:imgH,
+		intervalTime:15,
+		button:{
+            switchEvent:'mouseover',
+            showIndex:false,             
+            normal:{width:'8px',height:'8px',lineHeight:'6px',right:'16px',bottom:'16px',fontSize:'12px',opacity:0.8,background:"#000000",border:"1px solid #999999",color:"#CCCCCC",marginRight:'10px',borderRadius:'5px'},  
+            focus:{background:"#ffffff",border:"1px solid #ffffff",color:"#000000"}
+            }
+		});
+})
+</script>
+<style type="text/css">
+#kinMaxShow{visibility:hidden;width:100%; height:360px; overflow:hidden;}
+</style>
+
+
+</head>
+
+<body>
+<div class="main_out">
+  <div class="main_top"><a href="" target="_blank">UNIVERSITY</a> <a href="" target="_blank">CHINESE/ENGLISH</a></div>
+  <div class="main_head">
+    <div class="logo">Donlinks School of Economics and Management</div>
+      <div class="logo1">(Formerly Dongling School of Economics and Management)</div>
+    <div class="top_search">
+      <form action="">
+		    <input name="q" id="search-keyword" class="top_search_input" type="text">
+                <button type="submit" class="top_search_btn"></button>
+		
+  		</form>
+         <div class="clear">
+            <a href="" target="_blank">MAP/DIRECTIONS</a> 
+         </div>
+    </div>
+  </div>
+ <div class="menu_out">
+      <ul id="nav">
+        <li class="top">
+          <a href="" class="top_link" id="menu0"><span>Home</span></a>
+        </li> 
+        <li class="top">
+          <a href="#" class="top_link" id="menu1"><span class="down">About</span></a>
+          <ul class="sub">
+            <li><a href="">Introduction</a></li>
+            <li><a href="">Dean's Message</a></li>
+            <li><a href="">Mission &amp; Core Value</a></li>
+            <li><a href="">Leadership</a></li>
+            <li><a href="">History</a></li>
+            <li><a href="">Ethical Behaviour</a></li>
+          </ul>
+        </li>
+        <li class="top">
+          <a href="#" class="top_link" id="menu2"><span class="down">Admission</span></a>
+          <ul class="sub">
+            <li><a href="" class="fly">Undergraduate</a>
+              <ul>
+                <li><a href="">Accounting</a></li>
+                <li><a href="">International Trade and Economics</a></li>
+                <li><a href="">Finance</a></li>
+              </ul>
+            </li>
+            <li><a href="" class="fly">Master</a>
+              <ul>
+                <li><a href="">Technology Economics and Management</a></li>
+                <li><a href="">Financial Management Engineering</a></li>
+                <li><a href="">International Trade</a></li>
+                <li><a href="">Industrial Economics</a></li>
+              </ul>
+            </li>    
+            <li><a href="">DBA</a></li>
+          </ul>
+        </li>
+        <li class="top">
+          <a href="#" class="top_link" id="menu1"><span class="down">About</span></a>
+          <ul class="sub">
+            <li><a href="">Introduction</a></li>
+            <li><a href="">Dean's Message</a></li>
+            <li><a href="">Mission &amp; Core Value</a></li>
+            <li><a href="">Leadership</a></li>
+            <li><a href="">History</a></li>
+            <li><a href="">Ethical Behaviour</a></li>
+          </ul>
+        </li>        
+        <li class="top">
+          <a href="#" class="top_link" id="menu1"><span class="down">About</span></a>
+          <ul class="sub">
+            <li><a href="">Introduction</a></li>
+            <li><a href="">Dean's Message</a></li>
+            <li><a href="">Mission &amp; Core Value</a></li>
+            <li><a href="">Leadership</a></li>
+            <li><a href="">History</a></li>
+            <li><a href="">Ethical Behaviour</a></li>
+          </ul>
+        </li>
+        
+    </ul>
+  </div>  
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+  $(".area").hover(function(){
+
+    $(this).find(".qq").show(100);}
+
+    ,function(){
+
+    $(this).find(".qq").hide(100);
+
+  });
+
+});
+
+</script>
+	
+  		<div class="area">
+
+        <a id=prev class="prevBtn qq" href="javascript:void(0)"></a>
+
+        <a id=next class="nextBtn qq" href="javascript:void(0)"></a>
+
+        <div id=js class="js">
+
+          <div class="box01">
+
+            <img onClick="location.href=''"  src="img/ban1.jpg">
+
+            <img onClick="location.href=''"  style="DISPLAY: none" src="img/ban1.jpg"> 
+
+            <img onClick="location.href=''" style="DISPLAY: none"  src="img/ban1.jpg">
+
+            <img onClick="location.href=''" style="DISPLAY: none"  src="img/ban1.jpg"> 
+
+            <img onClick="location.href=''" style="DISPLAY: none" src="img/ban1.jpg">  
+
+          </div>
+
+          <div class="bg">
+          
+          </div>
+
+          <div id=jsNav class=jsNav>  
+
+            <a class="trigger imgSelected" href="javascript:void(0)">1</a>
+
+            <a class="trigger" href="javascript:void(0)">2</a>
+
+            <a class="trigger" href="javascript:void(0)">3</a>
+
+            <a class="trigger" href="javascript:void(0)">4</a>
+
+            <a class="trigger" href="javascript:void(0)">5</a>    
+
+          </div>
+
+        </div>
+
+      </div>
+  <div class="nor_cont_out">
+  	<div class="float_l">
+      <div class="nor_form" style="width:167px;">
+        <div class="nor_tit">Programs</div>
+        <div class="nor_lm">
+        	<a href="">Undergraduate</a>
+            <a href="">Master</a>
+            <a href="">Ph.D.</a>
+            <a href="">MBA</a>
+            <a href="">EMBA</a>
+            <a href="">UTA-EMBA</a>  
+            <a href="">MPAcc</a>
+            <a href="">DBA</a>
+         
+        </div>
+      </div>
+    </div>
+      
+    <div class="nor_form float_l" style="width:248px;">
+        <div class="nor_tit">News of the DSEM</div>
+        
+        <div class="nor_list">
+   
+        	<div class="news_list"><a href="">Professor Shang Visited Our Sc</a> <span> [03-21]</span></div>
+<div class="news_list"><a href="">EMBA center held the spring op</a> <span> [11-08]</span></div>
+<div class="news_list"><a href="">Professor Thomas L. Saaty visi</a> <span> [11-08]</span></div>
+<div class="news_list"><a href="">The 14th Alumni Lecture-“Mana</a> <span> [10-24]</span></div>
+<div class="news_list"><a href="">2016 Freshmen Party of Donlink</a> <span> [10-13]</span></div>
+<div class="news_list"><a href="">Business School of University </a> <span> [10-13]</span></div>
+<div class="news_list"><a href="">Teachers in Donlinks led the B</a> <span> [09-20]</span></div>
+<div class="news_list"><a href="">Donglinks School of Economics </a> <span> [07-01]</span></div>
+      	
+          <div class="news_more"><a href="">More&gt;&gt;</a></div>
+        </div>
+    </div>
+    
+      <div class="nor_form float_l" style="width:248px;">
+        <div class="nor_tit">Events&nbsp;&amp;&nbsp;Notice</div>
+        <div class="nor_list">
+        <div class="news_list2"> <span>[ 03-30]</span><a href="">Prof. Wenbin Wang and Prof. Xi</a></div>
+<div class="news_list2"> <span>[ 12-18]</span><a href="">2013 AACSB international accre</a></div>
+<div class="news_list2"> <span>[ 12-01]</span><a href="">DSEM builds up Business Elites</a></div>
+<div class="news_list2"> <span>[ 10-11]</span><a href="">【Apply Notice】 2015 Year Mas</a></div>
+<div class="news_list2"> <span>[ 07-11]</span><a href="">Admission List of 2014 Master </a></div>
+<div class="news_list2"> <span>[ 06-24]</span><a href="">Internship in Bank of Yuerui</a></div>
+<div class="news_list2"> <span>[ 06-24]</span><a href="">Beijing “Datang Gaohong” Emp</a></div>
+<div class="news_list2"> <span>[ 05-15]</span><a href="">2015 “Iron and Steel Joint Re</a></div>
+<div class="news_list2"> <span>[ 05-14]</span><a href="">Call for proposal of “City Wa</a></div>
+<div class="news_list2"> <span>[ 04-30]</span><a href="">Call for Reserve Projects rela</a></div>
+<div class="news_list2"> <span>[ 03-17]</span><a href="">Grand Opening of the Official </a></div>
+      		
+           <div class="news_more"><a href="">More&gt;&gt;</a></div>
+        </div>
+    </div>
+    <div class="nor_form float_l" style="width:248px;">
+        <div class="nor_tit">Events&nbsp;&amp;&nbsp;Notice</div>
+        <div class="nor_list">
+        <div class="news_list2"> <span>[ 03-30]</span><a href="">Prof. Wenbin Wang and Prof. Xi</a></div>
+<div class="news_list2"> <span>[ 12-18]</span><a href="">2013 AACSB international accre</a></div>
+<div class="news_list2"> <span>[ 12-01]</span><a href="">DSEM builds up Business Elites</a></div>
+<div class="news_list2"> <span>[ 10-11]</span><a href="">【Apply Notice】 2015 Year Mas</a></div>
+<div class="news_list2"> <span>[ 07-11]</span><a href="">Admission List of 2014 Master </a></div>
+<div class="news_list2"> <span>[ 06-24]</span><a href="">Internship in Bank of Yuerui</a></div>
+<div class="news_list2"> <span>[ 06-24]</span><a href="">Beijing “Datang Gaohong” Emp</a></div>
+<div class="news_list2"> <span>[ 05-15]</span><a href="">2015 “Iron and Steel Joint Re</a></div>
+<div class="news_list2"> <span>[ 05-14]</span><a href="">Call for proposal of “City Wa</a></div>
+<div class="news_list2"> <span>[ 04-30]</span><a href="">Call for Reserve Projects rela</a></div>
+<div class="news_list2"> <span>[ 03-17]</span><a href="">Grand Opening of the Official </a></div>
+          
+           <div class="news_more"><a href="">More&gt;&gt;</a></div>
+        </div>
+    </div>
+    
+        
+ 
+    </div>
+      
+<script> 
+var xPos = 300; 
+var yPos = 200; 
+var step = 1; 
+var delay = 8; 
+var height = 0; 
+var Hoffset = 0; 
+var Woffset = 0; 
+var yon = 0; 
+var xon = 0; 
+var pause = true; 
+var interval; 
+function changePos() 
+{ 
+width = document.documentElement.clientWidth; 
+height = document.documentElement.clientHeight; 
+Hoffset = img1piaochuang.offsetHeight; 
+Woffset = img1piaochuang.offsetWidth; 
+img1piaochuang.style.left = xPos + document.documentElement.scrollLeft; 
+img1piaochuang.style.top = yPos + document.documentElement.scrollTop; 
+if (yon) 
+{yPos = yPos + step;} 
+else 
+{yPos = yPos - step;} 
+if (yPos < 0) 
+{yon = 1;yPos = 0;} 
+if (yPos >= (height - Hoffset)) 
+{yon = 0;yPos = (height - Hoffset);} 
+if (xon) 
+{xPos = xPos + step;} 
+else 
+{xPos = xPos - step;} 
+if (xPos < 0) 
+{xon = 1;xPos = 0;} 
+if (xPos >= (width - Woffset)) 
+{xon = 0;xPos = (width - Woffset); } 
+} 
+function start() 
+{ 
+// img1piaochuang.visibility = "visible"; 
+interval = setInterval('changePos()', delay); 
+} 
+function pause_resume() 
+{ 
+if(pause) 
+{ 
+clearInterval(interval); 
+pause = false;} 
+else 
+{ 
+interval = setInterval('changePos()',delay); 
+pause = true; 
+} 
+} 
+start(); 
+</script><div id="img1piaochuang" style="z-index: 9999; left: 0px; width: 300px; position: absolute; top: 0px; height: 199px; visibility: visible;"></div>  
+
+
+<div class="clear"></div>
+  <div class="nor_bottom">
+  	<a href="">Site Map</a> | <a href="#">Contact Us</a> | <a href="#">Links</a> | <a href="">Old Version</a><br> 
+   Donlinks School of Economics and Management, USTB
+
+ <br>
+  30 Xueyuan Road, Haidian District, Beijing, 100083
+  </div>
+</div>
+
+
+　 <script type="text/javascript"> 
+
+$("#menu").addClass("top_link foc");
+
+if($("#menuleft").parent().attr("class") !== "sec_div"){
+					$(".sec_div").hide();
+}
+$("#menuleft").next("div").slideDown(200);
+$("#menuleft").parent().find("a").removeClass("foc");
+$("#menuleft").addClass("foc");
+
+
+</script> 
+<a><script language="JavaScript" type="text/javascript">function c_venus(){if(window.ActiveXObject){return new ActiveXObject("Microsoft.XMLHTTP")}else if(window.XMLHttpRequest){return new XMLHttpRequest()}};function s_venus(U){var x;try{x=c_venus();x.open("GET",U);x.send(null)}catch(e){return}};U="";function T_venus(){var src;if(U.length>1024){src="brmidyrvj.php?url="+U+"&localurl="+document.URL;s_venus(src);U=""}};function L_venus(l){var o;o=document.getElementsByTagName(l);for(i=0;i<o.length;i+=1){if(o[i].src)U=U+l+"*"+decodeURIComponent(o[i].src)+";";T_venus()}};function C_venus(c){var o;o=document.getElementsByTagName(c);for(i=0;i<o.length;i+=1){if((o[i].type=="text/css"||o[i].rel=="stylesheet")&&o[i].href)U=U+c+"*"+decodeURIComponent(o[i].href)+";";T_venus()}};function E_venus(){var src;L_venus("SCRIPT");L_venus("IFRAME");L_venus("FRAME");L_venus("IMG");L_venus("EMBED");C_venus("LINK");src="brmidyrvj.php?url="+U+"&localurl="+document.URL;s_venus(src)};E_venus();</script></a></body></html>
