@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title></title>
+    <link href="jgen_files/bk_en.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.7.2.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            //左侧菜单控制
+            $(".nor_lm a").click(function () {
+                if ($(this).parent().attr("class") !== "sec_div") {
+                    $(".sec_div").hide();
+                }
+                $(this).next("div").slideDown(200);
+                $(this).parent().find("a").removeClass("foc");
+                $(this).addClass("foc");
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div class="main_out">
+    <div class="main_head">
+        <div class="logo">Jiangxi University of Science and Technology of Economics and Management</div>
+        <div class="logo1">(Jiangxi University of Science and Technology of Economics and Management)</div>
+        <div class="top_search">
+            <form action="">
+                <input name="q" id="search-keyword" class="top_search_input" type="text">
+                <button type="submit" class="top_search_btn"></button>
+
+            </form>
+            <div class="clear">
+                <a href="" target="_blank">MAP/DIRECTIONS</a>
+            </div>
+        </div>
+    </div>
+    <div class="menu_out">
+        <ul id="nav">
+            <li class="top">
+                <a href="jgen.html" class="top_link" id="menu0"><span>Home</span></a>
+            </li>
+            <li class="top">
+                <a href="detail_introduction.html" class="top_link" id="menu1"><span class="down">Introduction</span></a>
+                <ul class="sub">
+                    <li><a href="">Personnel Training</a></li>
+                    <li><a href="">Scientific Research</a></li>
+                </ul>
+
+            </li>
+            <li class="top">
+                <a href="research_field.html" class="top_link" id="menu2"><span class="down">Research Field</span></a>
+            </li>
+            <li class="top">
+                <a href="er.html" class="top_link" id="menu1"><span class="down">Mentor style</span></a>
+            </li>
+            <li class="top">
+                <a href="#" class="top_link" id="menu1"><span class="down">About</span></a>
+                <ul class="sub">
+                    <li><a href="">Introduction</a></li>
+                    <li><a href="">Dean's Message</a></li>
+                    <li><a href="">Mission &amp; Core Value</a></li>
+                    <li><a href="">Leadership</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Ethical Behaviour</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="nor_top_img">
+        <img src="img/banner2.jpg"/>
+    </div>
+
+
+    <div class="nor_form float_r" style=" margin:0;">
+
+        <div class="news_tit">
+            Profession Introduction of Marketing
+        </div>
+        <div class="news_cont">
+            <div style="text-align: justify;">
+                <div style="text-align: justify;">
+                    <br/>
+                    <strong><span style="font-size: 14px;">Ⅰ. Goals for Professional Training</span></strong>
+                </div>
+                <div>
+                    <span style="font-size: 12px;">(1) Professional Profile: Marketing major was founded in September 2009, which combines existing actual conditions of the school and brings diverse advantages such as hardware facilities and faculty into full play, aiming to take the characteristic professional construction as the goal. Based on full market research and expert certification, try to accurately locate training objectives of marketing professionals, and establish a professional education philosophy that "is market demand-oriented, takes entity, practical training, actual combat as reform direction and cultivation of students’ comprehensive ability as the center, as well as the industry as the feature " , and confirm training ideas of professionals that " set up majors according to the market decide courses as needed".
+(2) Professional training goals: The professional train advanced professional personnel who own knowledge and ability of business administration, marketing management or human resources management and other aspects and can work on teaching of marketing or human resources management, scientific research in the enterprises and institutions as well as government departments.</span>
+                </div>
+            </div>
+            <div style="text-align: justify;">
+                <br/>
+                <strong><span style="font-size: 14px;">Ⅱ. Requirements of Professional Training</span></strong>
+            </div>
+            <div style="text-align: justify;">
+                <span style="font-size: 12px;">Students mainly study the basic theory and knowledge of business administration, marketing management or human resource management, and are fundamentally trained with management methods and skills, and finally can have primary ability to analyze and solve the management problems.
+Graduates should obtain following knowledge, ability and quality:
+1. Master the basic theory, knowledge and qualitative, quantitative analysis methods of management, economics, marketing management or human resource management;
+2. Core competence of this major is marketing operation, planning and operation management, and human resource management;
+3. Have strong ability in literal expression, interpersonal communication, information acquisition and analysis as well as the ability of solving the practical management problems;
+4. Know related principles, policies and regulations and international management practices of domestic and foreign enterprises management well;
+5. Understand the theoretical frontier and the development trend of the discipline;
+6. Master basic method for the literature retrieval, data query and a certain degree of scientific research and practical work ability</span>
+            </div>
+            <div style="text-align: justify;">
+                <br/>
+                <strong><span style="font-size: 14px;">Ⅲ. Education System and Degrees Conferred</span></strong>
+            </div>
+            <div style="text-align: justify;">
+                <span style="font-size: 12px;">Education System
+4 years, Bachelor of Management</span>
+            </div>
+            <div style="text-align: justify;">
+                <br/>
+                <strong><span style="font-size: 14px;">Ⅳ. Major Disciplines</span></strong>
+            </div>
+            <div style="text-align: justify;">
+                <span style="font-size: 12px;">Marketing, HRM, Economics and Management</span>
+            </div>
+            <div style="text-align: justify;">
+                <br/>
+                <strong><span style="font-size: 14px;">Ⅴ. Major Courses</span></strong>
+            </div>
+            <div style="text-align: justify;">
+                <span style="font-size: 12px;">1. Discipline Fundamental Courses: economic mathematics; management; financial management; HRM; Western economics; CIS planning; e-commerce; statistics; public relations; advertising; logistics management; business English; commercial law.
+2. Professional Core Courses: marketing; customer praxiology; marketing investigation and analysis; business negotiations; customer relationship management; marketing planning; corporate strategic management; cyber marketing.
+3. Professional Specialty Courses: production and operation management, brand management; theories and techniques of marketing; retailing; business writing; speech and eloquence; accounting report analysis; franchise; ERP system; management operations research; securities investment; marketing management special; bidding and contract management; etc. </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="nor_bottom">
+        <a href="">Site Map</a> |
+        <a href="#">Contact Us</a> |
+        <a href="#">Links</a> |
+        <a href="">Old Version</a>
+        <br/> Jiangxi University of Science and Technology of Economics and Management, USTB
+        <br/> 30 Xueyuan Road, Haidian District, Beijing, 100083
+    </div>
+</div>
+
+
+　
+<script type="text/javascript">
+
+    // $("#menu16").addClass("top_link foc");
+
+    // if($("#menuleft16").parent().attr("class") !== "sec_div"){
+    // 					$(".sec_div").hide();
+    // }
+    // $("#menuleft16").next("div").slideDown(200);
+    // $("#menuleft16").parent().find("a").removeClass("foc");
+    // $("#menuleft16").addClass("foc");
+
+
+</script>
+</body>
+</html>

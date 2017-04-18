@@ -1,208 +1,205 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<title></title>
-<link href="jgen_files/bk_en.css" rel="stylesheet" type="text/css">
-<script src="js/jquery-1.7.2.min.js" charset="utf-8"></script>
-<script type="text/javascript">
-	$(document).ready(function(e) {
-		//左侧菜单控制
-        $(".nor_lm a").click(function(){
-				if($(this).parent().attr("class") !== "sec_div"){
-					$(".sec_div").hide();
-				}
-				$(this).next("div").slideDown(200);
-				$(this).parent().find("a").removeClass("foc");
-				$(this).addClass("foc");
-			});
-    });
-        	
-</script>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title></title>
+    <link href="jgen_files/bk_en.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.7.2.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            //左侧菜单控制
+            $(".nor_lm a").click(function () {
+                if ($(this).parent().attr("class") !== "sec_div") {
+                    $(".sec_div").hide();
+                }
+                $(this).next("div").slideDown(200);
+                $(this).parent().find("a").removeClass("foc");
+                $(this).addClass("foc");
+            });
+        });
+
+    </script>
 </head>
 <body>
 <div class="main_out">
-  <div class="main_top"><a href="" target="_blank">UNIVERSITY</a> <a href="" target="_blank">CHINESE/ENGLISH</a></div>
-  <div class="main_head">
-    <div class="logo">Donlinks School of Economics and Management</div>
-      <div class="logo1">(Formerly Dongling School of Economics and Management)</div>
-    <div class="top_search">
-      <form action="">
-		    <input name="q" id="search-keyword" class="top_search_input" type="text">
+    <div class="main_head">
+        <div class="logo">Jiangxi University of Science and Technology of Economics and Management</div>
+        <div class="logo1">(Jiangxi University of Science and Technology of Economics and Management)</div>
+        <div class="top_search">
+            <form action="">
+                <input name="q" id="search-keyword" class="top_search_input" type="text">
                 <button type="submit" class="top_search_btn"></button>
-		
-  		</form>
-         <div class="clear">
-            <a href="" target="_blank">MAP/DIRECTIONS</a> 
-         </div>
+
+            </form>
+            <div class="clear">
+                <a href="" target="_blank">MAP/DIRECTIONS</a>
+            </div>
+        </div>
     </div>
-  </div>
- <div class="menu_out">
-      <ul id="nav">
-        <li class="top">
-          <a href="" class="top_link" id="menu0"><span>Home</span></a>
-        </li> 
-        <li class="top">
-          <a href="#" class="top_link" id="menu1"><span class="down">About</span></a>
-          <ul class="sub">
-            <li><a href="">Introduction</a></li>
-            <li><a href="">Dean's Message</a></li>
-            <li><a href="">Mission &amp; Core Value</a></li>
-            <li><a href="">Leadership</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Ethical Behaviour</a></li>
-          </ul>
-        </li>
-        <li class="top">
-          <a href="#" class="top_link" id="menu2"><span class="down">Admission</span></a>
-          <ul class="sub">
-            <li><a href="" class="fly">Undergraduate</a>
-              <ul>
-                <li><a href="">Accounting</a></li>
-                <li><a href="">International Trade and Economics</a></li>
-                <li><a href="">Finance</a></li>
-              </ul>
+    <div class="menu_out">
+        <ul id="nav">
+            <li class="top">
+                <a href="jgen.html" class="top_link" id="menu0"><span>Home</span></a>
             </li>
-            <li><a href="" class="fly">Master</a>
-              <ul>
-                <li><a href="">Technology Economics and Management</a></li>
-                <li><a href="">Financial Management Engineering</a></li>
-                <li><a href="">International Trade</a></li>
-                <li><a href="">Industrial Economics</a></li>
-              </ul>
-            </li>    
-            <li><a href="">DBA</a></li>
-          </ul>
-        </li>
-        <li class="top">
-          <a href="#" class="top_link" id="menu1"><span class="down">About</span></a>
-          <ul class="sub">
-            <li><a href="">Introduction</a></li>
-            <li><a href="">Dean's Message</a></li>
-            <li><a href="">Mission &amp; Core Value</a></li>
-            <li><a href="">Leadership</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Ethical Behaviour</a></li>
-          </ul>
-        </li>        
-        <li class="top">
-          <a href="#" class="top_link" id="menu1"><span class="down">About</span></a>
-          <ul class="sub">
-            <li><a href="">Introduction</a></li>
-            <li><a href="">Dean's Message</a></li>
-            <li><a href="">Mission &amp; Core Value</a></li>
-            <li><a href="">Leadership</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Ethical Behaviour</a></li>
-          </ul>
-        </li>
-        
-    </ul>
-  </div>  
+            <li class="top">
+                <a href="detail_introduction.html" class="top_link" id="menu1"><span
+                        class="down">Introduction</span></a>
+                <ul class="sub">
+                    <li><a href="">Personnel Training</a></li>
+                    <li><a href="">Scientific Research</a></li>
+                </ul>
+            </li>
+            <li class="top">
+                <a href="research_field.html" class="top_link" id="menu2"><span class="down">Research Field</span></a>
+                <!--<ul class="sub">-->
+                <!--<li><a href="" class="fly">Undergraduate</a>-->
+                <!--<ul>-->
+                <!--<li><a href="">Accounting</a></li>-->
+                <!--<li><a href="">International Trade and Economics</a></li>-->
+                <!--<li><a href="">Finance</a></li>-->
+                <!--</ul>-->
+                <!--</li>-->
+                <!--<li><a href="" class="fly">Master</a>-->
+                <!--<ul>-->
+                <!--<li><a href="">Technology Economics and Management</a></li>-->
+                <!--<li><a href="">Financial Management Engineering</a></li>-->
+                <!--<li><a href="">International Trade</a></li>-->
+                <!--<li><a href="">Industrial Economics</a></li>-->
+                <!--</ul>-->
+                <!--</li>-->
+                <!--<li><a href="">DBA</a></li>-->
+                <!--</ul>-->
+            </li>
+            <li class="top">
+                <a href="#" class="top_link" id="menu1"><span class="down">Mentor style</span></a>
+                <!--<ul class="sub">-->
+                <!--<li><a href="">Introduction</a></li>-->
+                <!--<li><a href="">Dean's Message</a></li>-->
+                <!--<li><a href="">Mission &amp; Core Value</a></li>-->
+                <!--<li><a href="">Leadership</a></li>-->
+                <!--<li><a href="">History</a></li>-->
+                <!--<li><a href="">Ethical Behaviour</a></li>-->
+                <!--</ul>-->
+            </li>
+            <li class="top">
+                <a href="#" class="top_link" id="menu1"><span class="down">About</span></a>
+                <ul class="sub">
+                    <li><a href="detail_introduction.html">Introduction</a></li>
+                    <li><a href="">Dean's Message</a></li>
+                    <li><a href="">Mission &amp; Core Value</a></li>
+                    <li><a href="">Leadership</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Ethical Behaviour</a></li>
+                </ul>
+
+            </li>
+
+        </ul>
+    </div>
 
 
-  
- 
-  <div class="nor_top_img">
-   <img src="img/banner2.jpg" /> 
-  </div> 
-  <div class="nor_cont_out"> 
-   <div class="nor_form1 float_l" style="width:200px; margin:0;"> 
-    <div class="nor_lm"> 
-     <a href="javascript:;" class="foc" id="menuleft16">Undergraduate</a>
-     <div class="sec_div" style="display: none;">
-      <a href="javascript:;" class="focblu" id="menuleft24">Information Management</a>
-      <a href="javascript:;" id="menuleft25">Engineering Management</a>
-     </div> 
-     <a href="javascript:;" id="menuleft17">Master</a>
-     <div class="sec_div" style="display: none;">
-      <a href="javascript:;" id="menuleft30">Enterprise Management</a>
-      <a href="javascript:;" id="menuleft31">Management Science and Engineering</a>
-     </div> 
-     <a href="javascript:;" id="menuleft18">Ph.D.</a>
-     <div class="sec_div" style="display: none;">
-      <a href="javascript:;" id="menuleft37">Enterprise Management</a>
-      <a href="javascript:;" id="menuleft38">Management Science and Engineering</a>
-     </div> 
-     <a href="javascript:;" id="menuleft19">MBA</a>
-     <div class="sec_div" style="display: none;">
-      <a href="javascript:;" id="menuleft37">Enterprise Management</a>
-      <a href="javascript:;" id="menuleft38">Management Science and Engineering</a>
-     </div> 
-     <a href="javascript:;" id="menuleft19">MBA</a>
-     <div class="sec_div" style="display: none;">
-      <a href="javascript:;" id="menuleft37">Enterprise Management</a>
-      <a href="javascript:;" id="menuleft38">Management Science and Engineering</a>
-     </div> 
-     <a href="javascript:;" id="menuleft19">MBA</a>
-     <div class="sec_div" style="display: none;">
-      <a href="javascript:;" id="menuleft37">Enterprise Management</a>
-      <a href="javascript:;" id="menuleft38">Management Science and Engineering</a>
-     </div> 
-     <a href="javascript:;" id="menuleft19">MBA</a>
-     <div class="sec_div" style="display: none;">
-      <a href="javascript:;" id="menuleft37">Enterprise Management</a>
-      <a href="javascript:;" id="menuleft38">Management Science and Engineering</a>
-     </div> 
-     <a href="javascript:;" id="menuleft19">MBA</a>
-     <div class="sec_div" style="display: none;">
-      <a href="javascript:;" id="menuleft37">Enterprise Management</a>
-      <a href="javascript:;" id="menuleft38">Management Science and Engineering</a>
-     </div> 
-    </div> 
-   </div> 
-   <div class="nor_form float_r" style="width:750px; margin:0;"> 
-    <div class="news_tit">
-     Information Management and Information System
-    </div> 
-    <div class="news_cont"> 
-     <div style="text-align: justify;"> 
-      <div> 
-       <span style="font-size: 12px;">Information Management and Information System is an undergraduate program which is an interdisciplinary subject, dealing with management science, computer science and system science, with information system and information resource as its two research areas. The program, established by Donlinks School of Economics and Management, teaches fundamental theories and professional knowledge related to information system development and cultivates comprehensive professionals capable of information system development and management.</span>
-      </div> 
-      <div> 
-       <span style="font-size: 12px;">It’s a 4-year program for undergraduate students. A bachelor's degree in management is bestowed if the student has met the requirements of all kinds of evaluation.</span>
-      </div> 
-     </div> 
-     <div style="text-align: justify;"> 
-      <br /> 
-      <strong><span style="font-size: 14px;">Educational Objectives</span></strong> 
-     </div> 
-     <div style="text-align: justify;"> 
-      <span style="font-size: 12px;">The program aims to cultivate high-level professionals with ability and knowledge in areas including management, economics, law and computer science and technology, who are competent to conduct Information Management and Information System development or to be engaged in teaching &amp; research of concerning areas.</span> 
-     </div> 
-     <div style="text-align: justify;"> 
-      <br /> 
-      <strong><span style="font-size: 14px;">Educational Objectives</span></strong> 
-     </div> 
-     <div style="text-align: justify;"> 
-      <span style="font-size: 12px;">The program aims to cultivate high-level professionals with ability and knowledge in areas including management, economics, law and computer science and technology, who are competent to conduct Information Management and Information System development or to be engaged in teaching &amp; research of concerning areas.The program aims to cultivate high-level professionals with ability and knowledge in areas including management, economics, law and computer science and technology, who are competent to conduct Information Management and Information System development or to be engaged in teaching &amp; research of concerning areas.</span> 
-     </div> 
-    </div> 
-   </div> 
-  </div> 
-  <div class="clear"></div> 
-  <div class="nor_bottom"> 
-   <a href="">Site Map</a> | 
-   <a href="#">Contact Us</a> | 
-   <a href="#">Links</a> | 
-   <a href="">Old Version</a>
-   <br /> Donlinks School of Economics and Management, USTB 
-   <br /> 30 Xueyuan Road, Haidian District, Beijing, 100083 
-  </div>
+    <div class="nor_top_img">
+        <img src="img/banner2.jpg"/>
+    </div>
+
+    <!--<div class="nor_form" style="width:167px;">-->
+    <!--<div class="nor_lm">-->
+    <!--<a href="">E-commerce</a>-->
+    <!--<a href="">Engineering Management</a>-->
+    <!--<a href="">Engineering Cost</a>-->
+    <!--<a href="">Business Administration</a>-->
+    <!--<a href="">Accountancy</a>-->
+    <!--<a href="">Finance</a>-->
+    <!--<a href="">Marketing</a>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <div class="nor_form float_r" style="width:750px; margin:0;">
+
+        <div class="news_tit">
+            Information Management and Information System
+        </div>
+        <div class="news_cont">
+            <div style="text-align: justify;">
+                <div>
+                    <span style="font-size: 12px;">Information Management and Information System is an undergraduate program which is an interdisciplinary subject, dealing with management science, computer science and system science, with information system and information resource as its two research areas. The program, established by Donlinks School of Economics and Management, teaches fundamental theories and professional knowledge related to information system development and cultivates comprehensive professionals capable of information system development and management.</span>
+                </div>
+                <div>
+                    <span style="font-size: 12px;">It’s a 4-year program for undergraduate students. A bachelor's degree in management is bestowed if the student has met the requirements of all kinds of evaluation.</span>
+                </div>
+            </div>
+            <div style="text-align: justify;">
+                <br/>
+                <strong><span style="font-size: 14px;">Educational Objectives</span></strong>
+            </div>
+            <div style="text-align: justify;">
+                <span style="font-size: 12px;">The program aims to cultivate high-level professionals with ability and knowledge in areas including management, economics, law and computer science and technology, who are competent to conduct Information Management and Information System development or to be engaged in teaching &amp; research of concerning areas.</span>
+            </div>
+            <div style="text-align: justify;">
+                <br/>
+                <strong><span style="font-size: 14px;">Educational Objectives</span></strong>
+            </div>
+            <div style="text-align: justify;">
+                <span style="font-size: 12px;">The program aims to cultivate high-level professionals with ability and knowledge in areas including management, economics, law and computer science and technology, who are competent to conduct Information Management and Information System development or to be engaged in teaching &amp; research of concerning areas.The program aims to cultivate high-level professionals with ability and knowledge in areas including management, economics, law and computer science and technology, who are competent to conduct Information Management and Information System development or to be engaged in teaching &amp; research of concerning areas.</span>
+            </div>
+        </div>
+    </div>
+    <div class="nor_cont_out">
+        <div class="nor_form1 float_l" style="width:200px; margin:0;">
+            <div class="nor_lm">
+                <a href="javascript:;" class="foc" id="menuleft16">Huang Shunchun</a>
+                <a href="javascript:;" id="menuleft17">Lai Dan</a>
+                <a href="javascript:;" id="menuleft18">Liao Zuohong</a>
+                <a href="javascript:;" id="menuleft19">Liu Jianbing</a>
+                <a href="javascript:;" id="menuleft19">Liu Shengqun</a>
+                <a href="javascript:;" id="menuleft19">Peng Pin</a>
+                <a href="javascript:;" id="menuleft19">Teng Qing’an</a>
+
+                <a href="javascript:;" id="menuleft19">Wu Yiding</a>
+                <a href="javascript:;" id="menuleft19">Xie Yingliang</a>
+                <a href="javascript:;" id="menuleft19">Xie Zhongbiao</a>
+                <a href="javascript:;" id="menuleft19">Xu Ling</a>
+
+                <a href="javascript:;" id="menuleft19">Ye Rensun</a>
+
+                <a href="javascript:;" id="menuleft19">Zou Tan</a>
+
+                <!--<a href="javascript:;" id="menuleft19">Wu Yiding</a>-->
+                <!--<div class="sec_div" style="display: none;">-->
+                <!--<a href="javascript:;" id="menuleft37">Enterprise Management</a>-->
+                <!--<a href="javascript:;" id="menuleft38">Management Science and Engineering</a>-->
+                <!--</div>-->
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="clear"></div>
+    <div class="nor_bottom">
+        <a href="">Site Map</a> |
+        <a href="#">Contact Us</a> |
+        <a href="#">Links</a> |
+        <a href="">Old Version</a>
+        <br/> Jiangxi University of Science and Technology of Economics and Management, USTB
+        <br/> 30 Xueyuan Road, Haidian District, Beijing, 100083
+    </div>
 </div>
 
 
-　 <script type="text/javascript"> 
+　
+<script type="text/javascript">
 
-// $("#menu16").addClass("top_link foc");
+    // $("#menu16").addClass("top_link foc");
 
-// if($("#menuleft16").parent().attr("class") !== "sec_div"){
-// 					$(".sec_div").hide();
-// }
-// $("#menuleft16").next("div").slideDown(200);
-// $("#menuleft16").parent().find("a").removeClass("foc");
-// $("#menuleft16").addClass("foc");
+    // if($("#menuleft16").parent().attr("class") !== "sec_div"){
+    // 					$(".sec_div").hide();
+    // }
+    // $("#menuleft16").next("div").slideDown(200);
+    // $("#menuleft16").parent().find("a").removeClass("foc");
+    // $("#menuleft16").addClass("foc");
 
 
-</script> 
-</body></html>
+</script>
+</body>
+</html>
