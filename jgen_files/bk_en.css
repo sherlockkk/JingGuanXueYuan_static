@@ -44,7 +44,7 @@ a img {
 }
 
 .main_head {
-    background: url(../img/bken01.jpg) center;
+    background: url(../img/bken01_b.jpg) center;
     height: 102px;
     width: auto;
     position: relative;
@@ -178,7 +178,7 @@ a img {
     min-width: 85px;
     text-align: center;
     border-left: 1px solid #575757;
-    width: 19.8%
+    width: 16.55%
 }
 
 #nav li a.top_link {
