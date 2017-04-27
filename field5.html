@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title></title>
+    <link href="jgen_files/bk_en.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.7.2.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            //左侧菜单控制
+            $(".nor_lm a").click(function () {
+                if ($(this).parent().attr("class") !== "sec_div") {
+                    $(".sec_div").hide();
+                }
+                $(this).next("div").slideDown(200);
+                $(this).parent().find("a").removeClass("foc");
+                $(this).addClass("foc");
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div class="main_out">
+    <div class="main_head">
+        <div class="logo">School of Economics and Management</div>
+        <div class="top_search">
+            <form action="">
+                <input name="q" id="search-keyword" class="top_search_input" type="text">
+                <button type="submit" class="top_search_btn"></button>
+
+            </form>
+            <div class="clear">
+                <a href="" target="_blank">MAP/DIRECTIONS</a>
+            </div>
+        </div>
+    </div>
+    <div class="menu_out">
+        <ul id="nav">
+            <li class="top">
+                <a href="jgen.html" class="top_link" id="menu0"><span>Home</span></a>
+            </li>
+            <li class="top">
+                <a href="detail_introduction.html" class="top_link" id="menu1"><span
+                        class="down">Introduction</span></a>
+            </li>
+            <li class="top">
+                <a href="#" class="top_link" id="menu2"><span class="down">Major</span></a>
+                <ul class="sub">
+                    <li><a href="detail_01.html">E-commerce</a></li>
+                    <li><a href="detail_02.html">Engineering Management</a></li>
+                    <li><a href="detail_03.html">Engineering Cost</a></li>
+                    <li><a href="detail_04.html">Business Administration</a></li>
+                    <li><a href="detail_05.html">Accountancy</a></li>
+                    <li><a href="detail_06.html">Finance</a></li>
+                    <li><a href="detail_07.html">Marketing</a></li>
+                </ul>
+            </li>
+            <li class="top">
+                <a href="#" class="top_link" id="menu2"><span class="down">Research Field</span></a>
+                <ul class="sub">
+                    <li><a href="field1.html">Methods and application...</a></li>
+                    <li><a href="field2.html">Project management</a></li>
+                    <li><a href="field3.html">Financial management...</a></li>
+                    <li><a href="field4.html">Regional economic theory...</a></li>
+                    <li><a href="field5.html">Mining and nonferrous...</a></li>
+                </ul>
+            </li>
+            <li class="top">
+                <a href="er.html" class="top_link" id="menu1"><span class="down">Mentor style</span></a>
+            </li>
+            <li class="top">
+                <a href="detail_introduction.html" class="top_link" id="menu5"><span class="down">About</span></a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="nor_top_img">
+        <img src="img/banner2.jpg"/>
+    </div>
+
+
+    <div class="nor_form float_r" style=" margin:0;">
+
+        <div class="news_tit">
+            Mining and nonferrous metal industry economy
+        </div>
+        <div class="news_cont">
+            <div style="text-align: justify;">
+                <br/>
+                <strong><span style="font-size: 14px;">Mining and nonferrous metal industry economy</span></strong>
+            </div>
+            <div style="text-align: justify;">
+                <span style="font-size: 12px;">Academic staff in Industrial economics professional, relying on the background of non-ferrous smelting and mining engineering, have been committed to the non-ferrous industry economic research for a long time, and has achieved a high academic status and high-level research results, and formed the following features:
+(1) Mining development planning and mining structure adjustment. Rao Yunzhang and Huang Xiaodong, by use of the theory and method of industrial structure adjustment and system engineering, have studied and applied the methods and modes of mining planning and industrial policy. They have used the advanced system dynamics theory to promote the relevant theories and methods. (2) Non-ferrous industry development planning and industrial policy. Rao Yunzhang, Lin Ruhai et al, by use of the theory and method on industry organization and policy, have studied the nonferrous metals industry development plan and industry policy formulation, wherein the study results have been applied to a certain extent. (3) Structure and layout of non-ferrous mining and smelting industry. Lin Ruhai, Xu Shenghua et al, by use of the theory and method on industrial structure and regional industrial layout, have studied the theory and application of structure and layout of local special industry (mining). Research results have been adopted by local governments, and achieved huge social and economic benefits.
+In this direction, there’s a young and hard-working research team. In recent years, they have undertaken eight provincial or ministerial projects such as the soft science project from Jiangxi Provincial Department of Science and Technology -- Research on Jiangxi Non-Ferrous Metal Industry Development Strategy, wherein the research results have obtained a good social evaluation. In recent years, they have obtained four provincial and ministerial scientific and technological awards. Many projects have been applied in practice. They also have achieved valuable social and economic benefits. More than 70 articles have been published on the China Journal of Management Science, Technology Economics and other well-known publications.</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="nor_bottom">
+        School of Economics and Management,JXUST
+        <br>
+        86 HongQi Road, GanZhou, JiangXi, 341000
+    </div>
+</div>
+
+
+　
+<script type="text/javascript">
+
+    // $("#menu16").addClass("top_link foc");
+
+    // if($("#menuleft16").parent().attr("class") !== "sec_div"){
+    // 					$(".sec_div").hide();
+    // }
+    // $("#menuleft16").next("div").slideDown(200);
+    // $("#menuleft16").parent().find("a").removeClass("foc");
+    // $("#menuleft16").addClass("foc");
+
+
+</script>
+</body>
+</html>

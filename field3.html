@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title></title>
+    <link href="jgen_files/bk_en.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.7.2.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            //左侧菜单控制
+            $(".nor_lm a").click(function () {
+                if ($(this).parent().attr("class") !== "sec_div") {
+                    $(".sec_div").hide();
+                }
+                $(this).next("div").slideDown(200);
+                $(this).parent().find("a").removeClass("foc");
+                $(this).addClass("foc");
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div class="main_out">
+    <div class="main_head">
+        <div class="logo">School of Economics and Management</div>
+        <div class="top_search">
+            <form action="">
+                <input name="q" id="search-keyword" class="top_search_input" type="text">
+                <button type="submit" class="top_search_btn"></button>
+
+            </form>
+            <div class="clear">
+                <a href="" target="_blank">MAP/DIRECTIONS</a>
+            </div>
+        </div>
+    </div>
+    <div class="menu_out">
+        <ul id="nav">
+            <li class="top">
+                <a href="jgen.html" class="top_link" id="menu0"><span>Home</span></a>
+            </li>
+            <li class="top">
+                <a href="detail_introduction.html" class="top_link" id="menu1"><span
+                        class="down">Introduction</span></a>
+            </li>
+            <li class="top">
+                <a href="#" class="top_link" id="menu2"><span class="down">Major</span></a>
+                <ul class="sub">
+                    <li><a href="detail_01.html">E-commerce</a></li>
+                    <li><a href="detail_02.html">Engineering Management</a></li>
+                    <li><a href="detail_03.html">Engineering Cost</a></li>
+                    <li><a href="detail_04.html">Business Administration</a></li>
+                    <li><a href="detail_05.html">Accountancy</a></li>
+                    <li><a href="detail_06.html">Finance</a></li>
+                    <li><a href="detail_07.html">Marketing</a></li>
+                </ul>
+            </li>
+            <li class="top">
+                <a href="#" class="top_link" id="menu2"><span class="down">Research Field</span></a>
+                <ul class="sub">
+                    <li><a href="field1.html">Methods and application...</a></li>
+                    <li><a href="field2.html">Project management</a></li>
+                    <li><a href="field3.html">Financial management...</a></li>
+                    <li><a href="field4.html">Regional economic theory...</a></li>
+                    <li><a href="field5.html">Mining and nonferrous...</a></li>
+                </ul>
+            </li>
+            <li class="top">
+                <a href="er.html" class="top_link" id="menu1"><span class="down">Mentor style</span></a>
+            </li>
+            <li class="top">
+                <a href="detail_introduction.html" class="top_link" id="menu5"><span class="down">About</span></a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="nor_top_img">
+        <img src="img/banner2.jpg"/>
+    </div>
+
+
+    <div class="nor_form float_r" style=" margin:0;">
+
+        <div class="news_tit">
+            Financial management and emerging accounting research
+        </div>
+        <div class="news_cont">
+            <div style="text-align: justify;">
+                <br/>
+                <strong><span
+                        style="font-size: 14px;">Financial management and emerging accounting research</span></strong>
+            </div>
+            <div style="text-align: justify;">
+                <span style="font-size: 12px;">This direction has formed its own research characteristics on the aspects of the financial forecast, investment project evaluation and mining rights pricing and others. For example, Liu Jianbing et al have studied on the intangible assets valuation, investment project evaluation, and cost optimization and control by use of system dynamics, marginal analysis methods and other advanced tools. Over 10 of their published articles have been included by EI or ISTP. They used to provide financial optimization decision advice for Shaoguan Smelter Plant and other enterprises. Xie Linhai et al have applied the system dynamic theory and financial software to the financial forecast, and published a monograph -- System Dynamics Applications on Enterprise Financial Management. Liao Zuhong et al have studied the option pricing theory and method of mining rights. After doing the investigation and research on the capital market, they combined with the characteristics of mine production and management and put forward a set of highly operational mining rights pricing methods. Many of their articles have been published on China Mining and other publications. Bai Tiannan et al have studied the financial management mode of SMEs board listed companies at home and abroad. The results have achieved the third prize in Jiangxi provincial 13th Social Science Outstanding Achievement Awards.
+Under the trends of economic development globalization, sustainable development, administrative system reform, new requirements will be raised on accounting theory and practice. The research will focus on anti-dumping response accounting and environmental accounting and other emerging accounting.
+     Zhou Junqing et al, with the anti-dumping investigation enterprises as the research object, and have studied the accounting issues related to anti-dumping and complaints process. Chang Yuan et al have studied the enterprise environmental cost accounting based on the value chain theory, and achieved certain results. Ying Yihua et al have studied the reform of budget accounting and the construction of government accounting by use of public management theory and the classification of government revenue and expenditure, so as to determine the accounting basis of government accounting and the main body of government accounting, to improve the contents and form of budget statements, and to reduce accounting information distortion.
+In recent years, this direction has recruited and trained over 10 graduate students in financial management from the MBA station. In this direction, there are 1 professor, 5 associate professors, and 1 Dr. They are now undertaking several provincial and ministerial projects such as Cash Flow Forecast System Dynamics Simulation Model of Colleges and Universities, Dynamic Simulation System Research on Enterprise Financial Forecast and Financial Diagnosis, Early Warning System of China Anti-Dumping Industry to US Based on Strategic Management Accounting.</span>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="nor_bottom">
+        School of Economics and Management,JXUST
+        <br>
+        86 HongQi Road, GanZhou, JiangXi, 341000
+    </div>
+</div>
+
+
+　
+<script type="text/javascript">
+
+    // $("#menu16").addClass("top_link foc");
+
+    // if($("#menuleft16").parent().attr("class") !== "sec_div"){
+    // 					$(".sec_div").hide();
+    // }
+    // $("#menuleft16").next("div").slideDown(200);
+    // $("#menuleft16").parent().find("a").removeClass("foc");
+    // $("#menuleft16").addClass("foc");
+
+
+</script>
+</body>
+</html>

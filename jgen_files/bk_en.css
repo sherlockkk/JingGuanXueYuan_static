@@ -44,7 +44,7 @@ a img {
 }
 
 .main_head {
-    background: url(../img/bken01_b.jpg) center;
+    background: url(../img/bken01_b.png) center;
     height: 102px;
     width: auto;
     position: relative;
@@ -315,6 +315,7 @@ a img {
 .float_l {
     float: left;
     vertical-align: top;
+
 }
 
 .float_r {
@@ -326,6 +327,17 @@ a img {
     width: 960px;
     margin: 5px auto auto auto;
     height: auto;
+}
+
+.table {
+    /*float: right;*/
+    background-color: #fff;
+    width: 100%;
+    /*height: 1692px;*/
+    border-color: #cccccc;
+    height: 1692px;
+    mso-cellspacing: 0;
+    border = 1;
 }
 
 .nor_form {
@@ -1171,4 +1183,9 @@ a img {
 .page_num a:hover, .pages a.foc {
     background: #072b6b;
     color: #fff;
+}
+
+.tb_img {
+    width: 200px;
+    height: 200px;
 }
