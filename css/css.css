@@ -80,7 +80,7 @@ a:hover {
 .bg {
     width: 100%;
     padding-top: 1px;
-    background: url(../img/bg01.png) repeat-x;
+    /*background: url(../img/bg01.png) repeat-x;*/
     _background: none; /*IE6*/
     _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="images/bg01.png"); /*IE6*/
     height: 34px;
@@ -92,8 +92,9 @@ a:hover {
 
 .jsNav {
     position: absolute;
-    right: 20px;
+    right: 0px;
     top: 281px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .jsNav a {
